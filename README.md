@@ -1,86 +1,82 @@
 # 📊 Ecommerce Customer Behavior Analysis
 
-## 🎯 Objectif
+## 📌 Présentation du projet
 
-Ce projet a pour but de réaliser une **analyse exploratoire** sur le comportement des clients d’un site e-commerce à partir de données clients.  
-L’objectif est de comprendre les tendances d’achat, la satisfaction et l’impact des promotions afin de formuler des recommandations pour améliorer la stratégie commerciale.
+Ce projet de data analysis vise à étudier le comportement d'achat des clients d'une plateforme e-commerce à travers une base de données regroupant leurs caractéristiques démographiques, leurs habitudes d'achat et leur niveau de satisfaction.
 
----
-
-## 📦 Données
-
-- 📑 **Fichier source** : `e_commerce_Customer_Behavior.csv`
-- 📈 **350 clients**
-- 📊 **11 variables** :
-  - `Customer ID`
-  - `Gender`
-  - `Age`
-  - `City`
-  - `Membership Type`
-  - `Total Spend`
-  - `Items Purchased`
-  - `Average Rating`
-  - `Discount Applied`
-  - `Days Since Last Purchase`
-  - `Satisfaction Level`
+L'objectif est de dégager des insights métier exploitables afin d'améliorer la fidélisation client et d'optimiser les politiques de promotion.
 
 ---
 
-## 🛠️ Technologies utilisées
+## 🎯 Objectifs métier
 
-- Python 3 (Pandas, Numpy, Matplotlib, Seaborn)
-- Jupyter Notebook / VS Code
-- Power BI (visualisations complémentaires à venir)
-
----
-
-## 📌 Résultats clés
-
-- **Les clients Gold** dépensent 2 à 3 fois plus que les Silver et Bronze, avec 100% de satisfaction.
-- **Les discounts appliqués** n’améliorent pas significativement le panier moyen.
-- **Les jeunes clients** sont les plus actifs et les plus satisfaits.
-- **Corrélation forte** entre :  
-  - Dépenses ↔ Nombre d’achats (0.97)
-  - Dépenses ↔ Note moyenne (0.94)
-  - Âge ↔ Dépenses (-0.68)
+- Analyser la répartition des clients par **genre**, **ville** et **type de membership**.
+- Évaluer l’impact des **discounts** sur les dépenses.
+- Étudier les relations entre **dépenses**, **âge**, **nombre d’achats**, **satisfaction** et **jours depuis le dernier achat**.
+- Identifier les segments de clientèle à fort potentiel.
+- Proposer des recommandations stratégiques pour améliorer l’expérience client et la rentabilité.
 
 ---
 
-## 📊 Recommandations métier
+## 🛠️ Compétences mobilisées
 
-- Renforcer la fidélisation des **Silver et Bronze** via des avantages ciblés.
-- Optimiser la stratégie de discount (peu rentable dans sa forme actuelle).
-- Développer des offres premium pour les clients **jeunes** et actifs.
-
----
-
-## 📂 Structure du projet
-
-Ecommerce_Customer_Behavior_Analysis/
-│
-├── data/
-│ └── e_commerce_Customer_Behavior.csv
-│
-├── notebook/
-│ └── ecommerce_customer_behavior_analysis.ipynb
-│
-├── README.md
-│
-└── rapports/
-└── synthese_insights.md (à venir)
+- **Python (pandas, matplotlib, seaborn)**
+- Manipulation de données
+- Nettoyage et contrôle qualité
+- Analyse statistique et corrélation
+- Visualisation de données
+- **Synthèse métier**
+- Déploiement d’un **rapport Power BI** interactif
 
 ---
 
-## 📌 Auteur
+## 📊 Résultats majeurs
 
-👨‍💻 DJAHA YANKEP Charly William  
-*Data Analyst Junior*
+- Les **clients Gold** dépensent en moyenne 3 fois plus que les Bronze.
+- **100% des Gold sont satisfaits**, tandis que la majorité des Silver et Bronze sont insatisfaits.
+- Les clients **sans discount dépensent plus** que ceux bénéficiant de promotions.
+- Forte corrélation entre **dépenses et nombre d’achats (0.97)**.
+- Les **plus jeunes clients dépensent davantage** que les plus âgés.
+
+---
+
+## 📂 Contenu du projet
+
+📦 Ecommerce_Customer_Behavior
+ ┣ 📁 data
+ ┃ ┗ 📄 e_commerce_customer_behavior.csv
+ ┣ 📁 notebooks
+ ┃ ┗ 📄 ecommerce_analysis_notebook.ipynb
+ ┣ 📁 rapports
+ ┃ ┗ 📄 synthese_insights.md
+ ┣ 📁 powerbi_dashboard
+ ┃ ┗ 📄 ecommerce_dashboard.pbix
+ ┗ 📄 README.md
+
+---
+
+## 📊 Visualisation Power BI
+
+Un tableau de bord interactif sous Power BI accompagne ce projet pour illustrer :
+
+- Vue d’ensemble des clients
+- Analyse du membership et de la satisfaction
+- Impact des discounts
+- Corrélations entre variables clés
 
 ---
 
 ## 📑 Source des données
 
-Jeu de données fictif de simulation à usage pédagogique.
+Le jeu de données utilisé est disponible sur Kaggle :  
+➡️ [📦 Ecommerce Customer Behavior Dataset](https://www.kaggle.com/datasets/thedevastator/customer-behaviour)
+
+---
+
+## 👨‍💻 Auteur
+
+**DJAHA YANKEP Charly William**  
+*Data Analyst Junior*
 
 ---
 
