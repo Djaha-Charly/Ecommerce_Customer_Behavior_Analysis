@@ -42,7 +42,7 @@ L'objectif est de dégager des insights métier exploitables afin d'améliorer l
 
 ## 📂 Contenu du projet
 
-📦 Ecommerce_Customer_Behavior/
+Ecommerce_Customer_Behavior/
 │
 ├── data/
 │   └── e_commerce_customer_behavior.csv
