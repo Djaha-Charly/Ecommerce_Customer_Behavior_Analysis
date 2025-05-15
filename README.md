@@ -42,16 +42,21 @@ L'objectif est de dégager des insights métier exploitables afin d'améliorer l
 
 ## 📂 Contenu du projet
 
-📦 Ecommerce_Customer_Behavior
- ┣ 📁 data
- ┃ ┗ 📄 e_commerce_customer_behavior.csv
- ┣ 📁 notebooks
- ┃ ┗ 📄 ecommerce_analysis_notebook.ipynb
- ┣ 📁 rapports
- ┃ ┗ 📄 synthese_insights.md
- ┣ 📁 powerbi_dashboard
- ┃ ┗ 📄 ecommerce_dashboard.pbix
- ┗ 📄 README.md
+📦 Ecommerce_Customer_Behavior/
+│
+├── data/
+│   └── e_commerce_customer_behavior.csv
+│
+├── notebooks/
+│   └── ecommerce_analysis_notebook.ipynb
+│
+├── rapports/
+│   └── synthese_insights.md
+│
+├── powerbi_dashboard/
+│   └── ecommerce_dashboard.pbix
+│
+└── README.md
 
 ---
 
