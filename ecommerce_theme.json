@@ -1,0 +1,28 @@
+{
+  "name": "Ecommerce Customer Theme",
+  "dataColors": [
+    "#1F3B73",
+    "#47CACC",
+    "#FFA552",
+    "#4A4A4A",
+    "#E8E8E8",
+    "#A8D5BA"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1F3B73",
+  "tableAccent": "#FFA552",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "titleText": [{
+          "color": "#1F3B73",
+          "fontSize": 12
+        }],
+        "labelText": [{
+          "color": "#4A4A4A",
+          "fontSize": 11
+        }]
+      }
+    }
+  }
+}
