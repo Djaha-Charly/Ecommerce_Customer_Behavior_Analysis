@@ -42,23 +42,18 @@ L'objectif est de dégager des insights métier exploitables afin d'améliorer l
 
 ## 📂 Contenu du projet
 
-Ecommerce_Customer_Behavior/
-│
-├── data/
-│   └── e_commerce_customer_behavior.csv
-│
-├── notebooks/
-│   └── ecommerce_analysis_notebook.ipynb
-│
-├── rapports/
-│   └── synthese_insights.md
-│
-├── powerbi_dashboard/
-│   └── ecommerce_dashboard.pbix
-│
-└── README.md
+| 📂 Fichier                          | 📑 Description                                                               |
+|:----------------------------------|:----------------------------------------------------------------------------|
+| `ecommerce_customer_behavior_analysis.ipynb` | Notebook Python contenant toutes les étapes de nettoyage, préparation des données et calcul des corrélations |
+| `e_commerce_dashboard.pbix`    | Rapport Power BI interactif avec dashboards et analyses visuelles            |
+| `ecommerce_theme.json`    | Thème des visuels du Rapport Power BI        |
+| `e_commerce_Customer_Behavior_original.csv`    | Source des données importées dans le Notebook Python            |
+| `e_commerce_Customer_Behavior.csv`    | Source de données nettoyées provenant de Notebook Python et importée dans Power BI pour Rapport            |
+| `Capture` | Dossier contenant toutes les images représentatives contenues dans notre projet        |
+| `readme.md`                | Ce document                        |
 
 ---
+
 
 ## 📊 Visualisation Power BI
 
