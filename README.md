@@ -1,4 +1,5 @@
 # 📊 Ecommerce Customer Behavior Analysis
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/charly-data-analyst)
 
 ## 📌 Présentation du projet
 
