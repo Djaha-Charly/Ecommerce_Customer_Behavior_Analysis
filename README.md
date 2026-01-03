@@ -77,7 +77,7 @@ Le jeu de données utilisé est disponible sur Kaggle :
 ## 👨‍💻 Auteur
 
 **DJAHA YANKEP Charly William**  
-*Data Analyst Junior*
+*Data Analyst | SQL • Python • Power BI*
 
 ---
 
